@@ -80,3 +80,4 @@ vim.api.nvim_create_autocmd("FileType", {
 })
 
 vim.lsp.enable('zls');
+vim.lsp.enable('rust_analyzer');
